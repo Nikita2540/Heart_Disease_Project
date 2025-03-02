@@ -39,6 +39,6 @@ CREATE TABLE health_metrics(
     Diabetes VARCHAR(10),
     High_Blood_Pressure VARCHAR(10),
     Low_HDL_Cholesterol VARCHAR(10),
-    High_LDL Cholesterol VARCHAR(10)
+    High_LDL_Cholesterol VARCHAR(10),
     Foreign Key (patient_ID) REFERENCES patients(patient_ID)
 );
